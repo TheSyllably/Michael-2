@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Контент -->
+
+        <div class="slider">
+            <div class="slider__item filter">
+                <img src="img/portfolio.png" alt="slider1">
+            </div>
+            <div class="slider__item">
+                <img src="img/portfolio.png" alt="slider1">
+            </div>
+            <div class="slider__item filter">
+                <img src="img/portfolio.png" alt="slider1">
+            </div>
+            <div class="slider__item">
+                <img src="img/portfolio.png" alt="slider1">
+            </div>
+        </div>
+
+        <!-- Подключаем jQuery -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <!-- Подключаем слайдер Slick -->
+        <script src="js/slick.min.js"></script>
+        <!-- Подключаем файл скриптов -->
+        <script src="js/script.js"></script>
+    </div>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <div class="header__nav">
+                    <nav class="header__navbar">
+                        <ul class="nav__menu">
+                            <li class="header__item">
+                                <a href="#" class="header__link"> Обо мне </a>
+                            </li>
+                            <li class="header__item">
+                                <a href="#" class="header__link"> Услуги</a>
+                            </li>
+                            <li class="header__item">
+                                <a href="#" class="header__link"> Портфолио</a>
+                            </li>
+                            <li class="header__item">
+                                <a href="#" class="header__link"> Отзывы </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="header__photo">
+                    <div class="header__images">
+                        <div class="header__photo-first">
+                            <img class="lamp__photo" src="./img/lamp.png" alt="lamp">
+                        </div>
+
+                        <div class="header__photo-sec">
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="header__button">
+                    <button class="header__butt"> Оставить заявку</button>
+                </div>
+
+            </div>
+        </header>
+
+        <section class="brand">
+
+            <div class="container">
+
+                <div class="brand__info">
+
+
+                    <div class="brand__logo">
+                        <div class="brand__logo-first">
+                            <img class="brand__logo-i" src="img/svg/michaellogodesc.svg" alt="brand-logo">  <!---- Логотип для десктопа-->
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div class="brand__div">
+                    <img class="brand__div-long" src="img/divlogjpg.jpg" alt="brand-div">    <!-- 1-я разделительная линия--->
+                </div>
+            </div>
+
+
+
+
+        </section>
+
+
+        <section class="about">
+            <div class="container">
+
+                <div class="all__about">
+
+                    <div class="about__me">
+
+                        <div class="about__me-photo">
+                            <img class="me__photo" src="img/about.png" alt="about-me">
+                        </div>
+
+                        <div class="about__me-info">
+                            <!---Блок "обо мне"-->
+
+                            <div class="about__title">
+                                <h1 class="about__title-h"> ОБО МНЕ</h1>
+                            </div>
+
+                            <div class="about__subtitle">
+                                <p class="about__subtitle-p"> Здравствуйте, я Михаил Лупанов - мастер по производству мебели. С раннего дества я занимаюсь созданием разных интерьерных решений из дерева, дсп, фанеры. Это моё хобби, которое превратилось в бизнес!</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="services">
+
+                    <div class="service__title">
+                        <!---Отдельный блок "услуги"-->
+                    </div>
+                    <h1 class="service__title-h">УСЛУГИ</h1>
+                </div>
+
+                <div class="service__item service__office">
+                    <!-- 1-й блок с мебелью--->
+                </div>
+                <div class="service__ul">
+                    <h1 class="ul__title ul__sec"> Мебель для офиса</h1>
+                    <ul class="service__furniture-ul">
+                        <li class="service__furniture"> <img class="dots" src="img/svg/point.svg" alt="dots"> столы</li>
+                        <li class="service__furniture"> <img class="dots" src="img/svg/point.svg" alt="dots"> стулья</li>
+                        <li class="service__furniture"> <img class="dots" src="img/svg/point.svg" alt="dots"> стеллажи</li>
+                        <li class="service__furniture"> <img class="dots" src="img/svg/point.svg" alt="dots"> комоды</li>
+                        <li class="service__furniture"> <img class="dots" src="img/svg/point.svg" alt="dots"> шкафы</li>
+                        <li class="service__furniture"> <img class="dots" src="img/svg/point.svg" alt="dots"> и т.д</li>
+                    </ul>
+
+                    <div class="ul-button">
+                        <button class="li__button li__button-first"> Заказать </button>
+                    </div>
+                </div>
+
+                <div class="service__photo">
+                    <img class="furniture furniture__first" src="img/furniture.png" alt="">
+                </div>
+            </div>
+
+            <div class="service__item service__home">
+
+                <div class="service__photo">
+                    <img class="furniture__second" src="img/furniture2.png" alt="">
+                </div>
+
+
+                <div class="service__ul">
+                    <h1 class="ul__title ul__sec"> Мебель для дома </h1>            <!-- 2-й блок с мебелью--->
+                    <ul class="service__furniture-ul">
+                        <li class="service__furniture"> <img class="dots" src="img/svg/point.svg" alt="dots"> для кухни</li>
+                        <li class="service__furniture"> <img class="dots" src="img/svg/point.svg" alt="dots"> для ванной</li>
+                        <li class="service__furniture"> <img class="dots" src="img/svg/point.svg" alt="dots"> для спальни</li>
+                        <li class="service__furniture"> <img class="dots" src="img/svg/point.svg" alt="dots"> для детской</li>
+                        <li class="service__furniture"> <img class="dots" src="img/svg/point.svg" alt="dots"> для гостиной</li>
+
+                    </ul>
+
+                    <div class="ul-button">
+                        <button class="li__button"> Заказать </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service__item service__order">
+                <!-- 3-й блок с мебелью--->
+                <div class="service__ul">
+                    <h1 class="ul__title ul__third"> Мебель на заказ</h1>
+                    <ul class="service__furniture-ul">
+                        <li class="service__furniture"> <img class="dots" src="img/svg/point.svg" alt="dots"> матрасы</li>
+                        <li class="service__furniture"> <img class="dots" src="img/svg/point.svg" alt="dots"> стулья</li>
+                        <li class="service__furniture"> <img class="dots" src="img/svg/point.svg" alt="dots"> стеллажи</li>
+                        <li class="service__furniture"> <img class="dots" src="img/svg/point.svg" alt="dots"> шкафы</li>
+
+                    </ul>
+
+                    <div class="ul-button">
+                        <button class="li__button li__button-third"> Заказать</button>
+                    </div>
+                </div>
+
+                <div class="service__photo">
+
+                    <img class="furniture__third" src="img/furniture3.png" alt="">
+                </div>
+            </div>
+
+
+    </div>
+
+    </div>
+    </div>
+    </section>
+
+
+    <section class="portfolio">
+        <div class="container">
+
+            <h1 class="portfolio__title">
+                ПОРТФОЛИО
+            </h1>
+            <!---
+                            <div class="portfolio__block">
+
+                                <div class="portfolio__slider">
+
+                                    <div class="left__button__slider">
+                                        <svg id="left__button-svg" width="50" height="50" viewBox="0 0 50 50"  xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="25" cy="25" r="25" transform="rotate(-180 25 25)"/>
+                                            <path d="M17.9393 23.9393C17.3536 24.5251 17.3536 25.4749 17.9393 26.0607L27.4853 35.6066C28.0711 36.1924 29.0208 36.1924 29.6066 35.6066C30.1924 35.0208 30.1924 34.0711 29.6066 33.4853L21.1213 25L29.6066 16.5147C30.1924 15.9289 30.1924 14.9792 29.6066 14.3934C29.0208 13.8076 28.0711 13.8076 27.4853 14.3934L17.9393 23.9393ZM21 23.5L19 23.5L19 26.5L21 26.5L21 23.5Z" fill="#E6E2E6"/>
+                                            </svg>
+
+                                    </div>
+
+
+            -------------------------------------------------------------------------------->
+
+            <div class="wrapper">
+                <!-- Контент -->
+
+                <div class="slider">
+                    <div class="slider__item filter">
+                        <img class="slider__image" src="img/portfolio.png" alt="slider1">
+                    </div>
+                    <div class="slider__item">
+                        <img class="slider__image" src="img/2.png" alt="slider1">
+                    </div>
+                    <div class="slider__item filter">
+                        <img class="slider__image" src="img/3.png" alt="slider1">
+                    </div>
+                    <div class="slider__item">
+                        <img class="slider__image" src="img/4.png" alt="slider1">
+                    </div>
+                </div>
+
+                <!-- Подключаем jQuery -->
+                <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+                <!-- Подключаем слайдер Slick -->
+                <script src="js/slick.min.js"></script>
+                <!-- Подключаем файл скриптов -->
+                <script src="js/script.js"></script>
+            </div>
+
+
+
+            <!-------------------------------------------------------------------
+
+
+                                <div class="right__button__slider">
+                                    <svg id="right__button-svg" width="50" height="50" viewBox="0 0 50 50"  xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="25" cy="25" r="25" />
+                                        <path d="M32.0607 26.0607C32.6464 25.4749 32.6464 24.5251 32.0607 23.9393L22.5147 14.3934C21.9289 13.8076 20.9792 13.8076 20.3934 14.3934C19.8076 14.9792 19.8076 15.9289 20.3934 16.5147L28.8787 25L20.3934 33.4853C19.8076 34.0711 19.8076 35.0208 20.3934 35.6066C20.9792 36.1924 21.9289 36.1924 22.5147 35.6066L32.0607 26.0607ZM29 26.5L31 26.5L31 23.5L29 23.5L29 26.5Z" fill="#E6E2E6"/>
+                                        </svg>
+
+
+                                </div>
+
+
+                            </div>
+                            -->
+
+
+
+
+            <div class="portfolio__bg">
+                <img class="portfolio__div" src="img/divlogjpg.jpg" alt="slider1">                 <!-- 2-я разделительная линя--->
+
+            </div>
+
+            <div class="portfolio__pluses">
+
+                <div class="vertical__line">
+
+                </div>
+
+                <div class="plus__item">
+
+                    <div class="plus__svg">
+                        <img src="img/svg/terms.svg" alt="terms">
+                    </div>
+                    <div class="plus__title">
+                        <h1>Быстрые сроки</h1>
+                    </div>
+
+                    <div class="plus__subtitle">
+                        <p>
+                            Заказ выполняется <br>
+                            в течение месяца
+                        </p>
+                    </div>
+                </div>
+
+                <div class="vertical__line">
+                </div>
+                <div class="vertical__line">
+                </div>
+
+                <div class="plus__item">
+
+                    <div class="plus__svg">
+                        <img src="img/svg/price.svg" alt="price">
+                    </div>
+                    <div class="plus__title">
+                        <h1>Честные цены</h1>
+                    </div>
+
+                    <div class="plus__subtitle">
+                        <p> В стоимость заказа включена цена за материалу и профессиональную работу</p>
+                    </div>
+                </div>
+
+                <div class="vertical__line">
+                </div>
+                <div class="vertical__line">
+                </div>
+
+                <div class="plus__item">
+
+                    <div class="plus__svg">
+                        <img src="img/svg/all.svg" alt="garanty">
+                    </div>
+
+                    <div class="plus__title">
+                        <h1>Работы с гарантией</h1>
+                    </div>
+
+                    <div class="plus__subtitle">
+                        <p> На всю мебель выдается гарантия</p>
+                    </div>
+                </div>
+
+                <div class="vertical__line">
+                </div>
+            </div>
+
+        </div>
+        </div>
+
+
+    </section>
+
+
+    <section class="reviews">
+
+        <div class="container">
+
+            <div class="reviews__block">
+
+                <div class="reviews__title">
+                    <h1 class="reviews__title-h"> ОТЗЫВЫ</h1>
+                </div>
+
+                <div class="reviews__examples-block">
+
+
+                    <div class="reviews__bg">
+
+                        <div class="reviews__text">
+
+
+
+                            <div class="reviews__item">
+
+
+                                <div class="review__photo">
+                                    <img src="img/rev1.png" alt="review">
+
+                                </div>
+
+                                <div class="review__flex">
+
+                                    <div class="review__example">
+                                        <h1 class="review__example-h"> Заказ - комплекс офисной мебели</h1>
+                                    </div>
+
+                                    <div class="review__info review__info-first">
+                                        <p class="rev__info">
+                                            Был необходим комплекс мебели для открытия офиса, чтоб все было в одном стиле, цвете. Обратился к Михаилу - проработали дизайн, определились с материалом. Заказ был выполнен за рекордно короткие сроки.
+                                            <br> Рекомендую!
+                                        </p>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                            <div class="reviews__item">
+
+                                <div class="review__flex">
+                                    <div class="review__example">
+                                        <h1 class="review__example-h"> Заказ - мебель для детской</h1>
+                                    </div>
+
+
+                                    <div class="review__info">
+                                        <p class="rev__info">
+                                            Нашла Михаила по рекомендации знакомых. Офрмила на сайте заказ по созданию мебели для детской комнаты - двухъярусная кровать, стеллаж, два компьютерных стола и два стула. Михаил все сделал быстро, качественно!
+                                            Если цените хорошую работу - смело обращайтесь к Михаилу!
+                                        </p>
+
+                                    </div>
+                                </div>
+
+
+                                <div class="review__photo">
+                                    <img src="img/rev2.png" alt="review">
+                                </div>
+                            </div>
+
+                            <div class="reviews__item">
+
+                                <div class="review__photo">
+                                    <img src="img/rev3.png" alt="review">
+
+                                </div>
+
+                                <div class="review__flex">
+
+                                    <div class="review__example">
+                                        <h1 class="review__example-h"> Заказ - кухонный гарнитур</h1>
+                                    </div>
+
+                                    <div class="review__info">
+                                        <p class="rev__info">
+                                            Во время обустройства новой квартиры возникла проблема - не могли подобрать мебель для кухни, так как ничего толкового в розничных магазинах найти не могли. Искали грамотного мастера, который сможет решить данную проблему - нашли Михаила.
+                                            Работа классная, отлично вписалась в дизайн!
+                                        </p>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+
+
+
+
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="process">
+
+        <div class="container">
+
+            <div class="process__block">
+
+                <div class="process__title">
+                    <h1 class="process__title-h"> ПРОЦЕСС</h1>
+                </div>
+
+                <div class="process__list">
+
+                    <div class="process__step">
+
+
+                        <div class="step__title">
+                            <h1 class="step__num">
+                                1
+                            </h1>
+                            <h1 class="step__title-h">
+                                Оформление <br> заказа
+                            </h1>
+                        </div>
+
+                        <div class="step__subtitle">
+                            <p class="step__subtitle-p">
+                                Оставляете заявку на сайте или любым другим удобным для вас способом.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="process__step">
+
+                        <div class="step__png">
+                            <img class="process__png" src="img/process1.png" alt="process">             <!-- фото процесса--->
+                        </div>
+                    </div>
+
+
+                    <div class="process__step">
+
+                        <div class="step__title">
+                            <h1 class="step__num">
+                                2
+                            </h1>
+                            <h1 class="step__title-h">
+                                Обсуждение дизайна
+                            </h1>
+                        </div>
+
+                        <div class="step__subtitle">
+                            <p class="step__subtitle-p">
+                                Проговариваем с вами то, что хотите, фиксируем все на бумаге и устанавливаем примерные сроки.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="process__step">
+
+                        <div class="step__png">
+                            <img class="process__png" src="img/process2.png" alt="process">
+                        </div>
+                    </div>
+
+
+                    <div class="process__step">
+
+                        <div class="step__title">
+                            <h1 class="step__num">
+                                3
+                            </h1>
+                            <h1 class="step__title-h">
+                                Проведение замеров
+                            </h1>
+                        </div>
+
+                        <div class="step__subtitle">
+                            <p class="step__subtitle-p">
+                                Измеряем пространство для мебели на месте. Вносим правки, если они необходимы.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="process__step">
+
+                        <div class="step__png">
+                            <img class="process__png" src="img/process3.png" alt="process3">
+                        </div>
+                    </div>
+
+
+                    <div class="process__step">
+
+                        <div class="step__title">
+                            <h1 class="step__num">
+                                4
+                            </h1>
+                            <h1 class="step__title-h">
+                                Приступаем к работе
+                            </h1>
+                        </div>
+
+                        <div class="step__subtitle">
+                            <p class="step__subtitle-p">
+                                Из выбранных материалов, с точными размерами производим вашу мебель.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="process__step">
+
+                        <div class="step__png">
+                            <img class="process__png" src="img/process4.png" alt="process4">
+                        </div>
+                    </div>
+
+
+                    <div class="process__step">
+
+                        <div class="step__title">
+                            <h1 class="step__num">
+                                5
+                            </h1>
+                            <h1 class="step__title-h">
+                                Сдаём работу
+                            </h1>
+                        </div>
+
+                        <div class="step__subtitle">
+                            <p class="step__subtitle-p">
+                                Передаем работу вам, помогаем установить ее в помещении, дарим хорошее настроение.
+                            </p>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <div class="process__button">
+                    <button class="call__button">
+                        Оставить заявку
+                    </button>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <section class="anket">
+
+        <div class="container">
+            <div class="anket__title">
+                <h1 class="anket__title-h"> ЗАЯВКА
+            </div>
+            <form action="check.php" method="post">
+                <div class="blank">
+
+                    <div class="blank__item">
+                        <h1 class="blank__item-h">Фамилия и имя*</h1>
+                        <input type="text" name="name" placeholder="Иван Иванович" class="input__item">
+                    </div>
+
+                    <div class="blank__item">
+                        <h1 class="blank__item-h">Эмэил*</h1>
+                        <input type="email" name="email" placeholder="ivanovich@mail.ru" class="input__item">
+                    </div>
+
+                    <div class="blank__item-flex">
+
+
+
+
+
+
+                        <div class="blank__item">
+                            <h1 class="blank__item-h">Мебель*</h1>
+
+
+                            <!------------------------------------>
+
+
+
+                            <div class="button__item-f">
+
+                                <div class="blank__button-svg dropdown">
+                                    <svg id="blank__menu" width="46" height="43" viewBox="0 0 46 43" xmlns="http://www.w3.org/2000/svg" onclick="firstFunction()" class=" dropbtn">
+                                        <path d="M22.566 40.9723C10.9013 40.9964 1.57414 32.1095 1.54912 21.3026C1.52409 10.4957 10.81 1.57044 22.4747 1.54637C34.1394 1.5223 43.4666 10.4092 43.4916 21.2161C43.5167 32.023 34.2307 40.9482 22.566 40.9723Z" stroke-width="3" />
+                                        <path id="blank__menu-w" d="M21.417 27.3663C22.0042 27.9509 22.9539 27.9489 23.5384 27.362L33.0622 17.7963C33.6466 17.2093 33.6444 16.2596 33.0573 15.675C32.4701 15.0904 31.5204 15.0924 30.9359 15.6794L22.4703 24.1822L13.9654 15.7144C13.3783 15.1298 12.4285 15.1318 11.8441 15.7188C11.2597 16.3058 11.2619 17.2555 11.849 17.8401L21.417 27.3663ZM20.9713 24.6095L20.9752 26.3066L23.9752 26.3004L23.9713 24.6034L20.9713 24.6095Z" />
+                                    </svg>
+                                    <div id="firstDropdown" class="dropdown-content">
+                                        <ul name="for" class="dropdown-menu">
+                                            <li class="dropdown-input"><label><input type="radio" name="radio">Для офиса</label></li>
+                                            <li class="dropdown-input"><label><input type="radio" name="radio">Для дома</label></li>
+                                            <li class="dropdown-input"><label><input type="radio" name="radio">Экслюзив</label></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- свг вызывающие выпадающее меню --->
+                        </div>
+
+                        <div class="blank__item blank__item-f">
+                            <div class="button__item-f button_item_r">
+                                <div class="blank__button-svg dropdown">
+                                    <svg id="blank__menu" width="46" height="43" viewBox="0 0 46 43" xmlns="http://www.w3.org/2000/svg" onclick="secondFunction()" class=" dropbtn">
+                                        <path d="M22.566 40.9723C10.9013 40.9964 1.57414 32.1095 1.54912 21.3026C1.52409 10.4957 10.81 1.57044 22.4747 1.54637C34.1394 1.5223 43.4666 10.4092 43.4916 21.2161C43.5167 32.023 34.2307 40.9482 22.566 40.9723Z" stroke-width="3" />
+                                        <path id="blank__menu-w" d="M21.417 27.3663C22.0042 27.9509 22.9539 27.9489 23.5384 27.362L33.0622 17.7963C33.6466 17.2093 33.6444 16.2596 33.0573 15.675C32.4701 15.0904 31.5204 15.0924 30.9359 15.6794L22.4703 24.1822L13.9654 15.7144C13.3783 15.1298 12.4285 15.1318 11.8441 15.7188C11.2597 16.3058 11.2619 17.2555 11.849 17.8401L21.417 27.3663ZM20.9713 24.6095L20.9752 26.3066L23.9752 26.3004L23.9713 24.6034L20.9713 24.6095Z" />
+                                    </svg>
+                                    <div id="secondDropdown" class="dropdown-content">
+                                        <ul name="furniture" class="dropdown-menu">
+                                            <li class="dropdown-input"><label><input type="checkbox">Мебель для кухни</label></li>
+                                            <li class="dropdown-input"><label><input type="checkbox">Мебель для ванной</label></li>
+                                            <li class="dropdown-input"><label><input type="checkbox">Мебель для спальни</label></li>
+                                            <li class="dropdown-input"><label><input type="checkbox">Стенки для гостинной</label></li>
+                                            <li class="dropdown-input"><label><input type="checkbox">Стеллажи</label></li>
+                                            <li class="dropdown-input"><label><input type="checkbox">Комоды и тумбы</label></li>
+                                            <li class="dropdown-input"><label><input type="checkbox">Прихожие</label></li>
+                                            <li class="dropdown-input"><label><input type="checkbox">Столы</label></li>
+                                            <li class="dropdown-input"><label><input type="checkbox">Стулья</label></li>
+                                            <li class="dropdown-input"><label><input type="checkbox">Шкафы</label></li>
+                                            <li class="dropdown-input"><label><input type="checkbox">Матрасы</label></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>    <!-- свг вызывающие выпадающее меню  2--->
+                    </div>
+                </div>
+
+
+                <!--------------------------------------------------------------------------->
+                <div class="blank__item">
+                    <h1 class="blank__item-h">Желаемый бюджет</h1>
+                    <input type="text" name="cost" placeholder="50 000 рублей" class="input__item">
+                </div>
+
+                <div class="blank__button">
+                    <button type="submit" name="button" class="blank__button-send"> Отправить</button>
+                </div>
+            </form>
+            </div>
+    </section>
+
+
+    <section class="footer">
+
+        <div class="footer__wrapper">
+
+
+            <div class="footer__info">
+
+                <div class="footer__logo">
+                    <img class="footer__png" src="img/svg/footerlogo.svg">
+                </div>
+
+                <div class="footer__email">
+                    <h1 class="footer__mail">
+                        Электронная почта <br>
+                        Михаил Лупанов
+                    </h1>
+                </div>
+
+                <div class="footer__city">
+                    <h1 class="footer__mail"> Ижевск </h1>
+                </div>
+
+                <div class="footer__republic">
+                    <h1 class="footer__mail"> Удмуртия </h1>
+                </div>
+
+                <div class="footer__button">
+                    <button class="footer__btn"> Оставить заявку</button>
+                </div>
+
+            </div>
+
+
+
+
+
+        </div>
+
+
+    </section>
+
+    </div>
+
+
+
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
